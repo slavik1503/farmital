@@ -226,6 +226,9 @@ hr{
 .nicetile-tab-price{
     color: black;
 }
+img{
+    max-width: 100%;
+}
 .zarontin-info p,
 .colchicine-info p,
 .iruxol-info p,
@@ -307,4 +310,56 @@ footer{
     color: #9999a6;
     font-family: 13px/1.4em "Arial";
     text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+    .main-center{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 705px){
+    .navigation{
+        padding: 15px 15px 0 75px;
+    }
+    .phone{
+        padding: 15px 210px 10px 0;
+    }
+    .tel::before{
+        top: 4px;
+    }
+}
+@media screen and (max-width: 650px){
+    .navigation{
+        text-align: center;
+    }
+    .logotipe{
+        padding-right: 60px;
+    }
+}
+@media screen and (max-width: 426px){
+    .phone{
+        padding: 15px 95px 10px 0;
+    }
+    .column{
+        margin: 15px 14px 0 180px;
+    }
+    .tel::before {
+        top: 20px;
+    }
+    .zymafluor{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 376px){
+    .column{
+        margin: 15px 14px 0 129px;
+    }
+}
+@media screen and (max-width: 321px){
+    .column{
+        margin: 15px 14px 0 75px;
+    }
+    .zymafluor{
+        font-size: 12px;
+    }
 }
