@@ -313,7 +313,7 @@ footer{
         padding: 15px 95px 10px 0;
     }
     .column{
-        margin: 15px 14px 0 180px;
+        margin: 15px 14px 0 141px;
     }
     .tel::before {
         top: 20px;
@@ -324,12 +324,12 @@ footer{
 }
 @media screen and (max-width: 376px){
     .column{
-        margin: 15px 14px 0 129px;
+        margin: 15px 14px 0 62px;
     }
 }
 @media screen and (max-width: 321px){
     .column{
-        margin: 15px 14px 0 75px;
+        margin: 15px 14px 0 10px;
     }
     .stock{
         display: inline-block;

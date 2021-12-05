@@ -1,4 +1,5 @@
 body{
+    max-width: 100%;
     margin: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -261,10 +262,6 @@ img{
     max-width: 225px;
     display:  inline-block;
 }
-
-
-
-
 footer{
     background-color: #ededf5;
 }
@@ -341,23 +338,23 @@ footer{
         padding: 15px 95px 10px 0;
     }
     .column{
-        margin: 15px 14px 0 180px;
+        margin: 15px 14px 0 141px;
     }
     .tel::before {
         top: 20px;
     }
     .zymafluor{
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 376px){
     .column{
-        margin: 15px 14px 0 129px;
+        margin: 15px 14px 0 62px;
     }
 }
 @media screen and (max-width: 321px){
     .column{
-        margin: 15px 14px 0 75px;
+        margin: 15px 14px 0 10px;
     }
     .zymafluor{
         font-size: 12px;
