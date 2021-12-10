@@ -24,6 +24,17 @@
                             <li>
                                 <a href="index-contact.html">Контакты</a>
                             </li>
+                            <li>
+                                <form class="lang">
+                                    <label>
+                                        <select name="lang" id="lang" onchange='switchLang()'>
+                                            <option disabled selected style="display: none;">Язык</option>
+                                            <option value="ukr">Українська</option>
+                                            <option value="rus">Русский</option>
+                                        </select>
+                                    </label>
+                                </form>
+                            </li>
                         </ul>
                     </nav>
                     <div class="phone">
@@ -38,7 +49,7 @@
     <script src="//code-ya.jivosite.com/widget/CiAvxamghr" async></script>
     <div class="main wrapper">
         <h1 class="contact">Контактная информация</h1>
-        <p><b>Контактное лицо:</b> Володимир та Катерина<br></p>        
+        <p><b>Контактное лицо:</b> Владимир и Екатерина<br></p>        
         <p><b>Сайт Аптеки:</b> farmital.com.ua<br></p>
         <p><b>Телефоны:</b> <a class="phon" href="tel:+380979301788">+38(097) 930-17-88</a><br>
             <a class="phon pad" href="tel:+380959371699">+38(095) 937-16-99</a><br>
@@ -78,5 +89,6 @@
             </div>
         </div>
     </footer>
+    <script src="../js/scripts.js"></script>
 </body>
 </html>
