@@ -20,16 +20,16 @@ hr{
     border-left: none;
     border-right: none;
 }
-.clear::after{
-    content: "";
-    display: block;
-    clear: both;
+.nav-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .wrapper-fon{
     position: relative;
     margin: 0 auto;
     max-width: 1150px;
-    padding: 0 20px 0 20px;
+    padding: 0 15px 0 40px;
 }
 .wrapper{
     padding: 30px 0 30px 0;
@@ -42,13 +42,16 @@ hr{
     max-width: 1150px;
 }
 .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 0 -14px;
     font-size: 0;
     text-align: center;
 }
 .column{
     display: inline-block;
-    margin: 0 14px;
+    margin: 15px 14px;
     vertical-align: middle;
     width: 219px;
     font-size: 14px;
@@ -165,7 +168,7 @@ hr{
     position: absolute;
     size: 1px;
     left: -30px;
-    bottom: 8px;
+    top: 32px;
     content: url(../img/viber3.png);
 }
 .main-top h2{
@@ -244,7 +247,7 @@ img{
 .cytotec-price,
 .zymafluor-price,
 .nicetile-tab-price{
-    max-width: 300px;
+    max-width: 250px;
     display: inline-block;
 }
 .iruxol-info{
@@ -259,17 +262,11 @@ img{
     display:  inline-block;
 }
 .zym{
-    max-width: 225px;
+    max-width: 250px;
     display:  inline-block;
 }
 footer{
     background-color: #ededf5;
-}
-.top{
-    margin-top: 40px;
-}
-.logotipe-bottom{
-    margin-right: 35px;
 }
 .footer-top .column{
     vertical-align: top;
@@ -314,9 +311,12 @@ footer{
         justify-content: space-around;
     }
 }
+@media screen and (max-width: 919px){
+    
+}
 @media screen and (max-width: 705px){
     .navigation{
-        padding: 15px 15px 0 75px;
+        padding: 15px 15px 0 40px;
     }
     .phone{
         padding: 15px 210px 10px 0;
@@ -335,10 +335,7 @@ footer{
 }
 @media screen and (max-width: 426px){
     .phone{
-        padding: 15px 95px 10px 0;
-    }
-    .column{
-        margin: 15px 14px 0 141px;
+        padding: 15px 50px 10px 0;
     }
     .tel::before {
         top: 20px;
@@ -347,15 +344,7 @@ footer{
         font-size: 13px;
     }
 }
-@media screen and (max-width: 376px){
-    .column{
-        margin: 15px 14px 0 62px;
-    }
-}
 @media screen and (max-width: 321px){
-    .column{
-        margin: 15px 14px 0 10px;
-    }
     .zymafluor{
         font-size: 12px;
     }

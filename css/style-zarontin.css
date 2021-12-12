@@ -14,19 +14,25 @@ h3{
     display: inline-block;
     font-size: 28px;
 }
-.clear::after{
-    content: "";
-    display: block;
-    clear: both;
+hr{
+    border: 1px solid #e4e4ec;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.nav-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .wrapper-fon{
     position: relative;
     margin: 0 auto;
     max-width: 1150px;
-    padding: 0 20px 0 20px;
+    padding: 0 15px 0 40px;
 }
 .wrapper{
-    padding: 30px 0 30px 0;
+    padding: 30px 15px;
     position: relative;
     margin: 0 auto;
     max-width: 1100px;
@@ -36,13 +42,16 @@ h3{
     max-width: 1150px;
 }
 .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 0 -14px;
     font-size: 0;
     text-align: center;
 }
 .column{
     display: inline-block;
-    margin: 0 14px;
+    margin: 15px 14px;
     vertical-align: middle;
     width: 219px;
     font-size: 14px;
@@ -159,23 +168,25 @@ h3{
     position: absolute;
     size: 1px;
     left: -30px;
-    bottom: 8px;
+    top: 32px;
     content: url(../img/viber3.png);
 }
 .foto-zarontin,
 .price-zarontin{
     max-width: 100%;
     display: inline-block;
-    padding-left: 40px;
 }
 .price-zarontin{
     padding-right: 20px;
 }
 .foto{
     max-width: 500px;
+
 }
-.price-zarontin{
-    float: right;
+.main-price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .phone-price{
     text-decoration: none;
@@ -227,12 +238,6 @@ h3{
 footer{
     background-color: #ededf5;
 }
-.top{
-    margin-top: 40px;
-}
-.logotipe-bottom{
-    margin-right: 35px;
-}
 .footer-top .column{
     vertical-align: top;
 }
@@ -276,14 +281,9 @@ footer{
         justify-content: space-around;
     }
 }
-@media screen and (max-width: 769px){
-    .price-zarontin{
-        float: none;
-    }
-}
 @media screen and (max-width: 705px){
     .navigation{
-        padding: 15px 15px 0 75px;
+        padding: 15px 15px 0 40px;
     }
     .phone{
         padding: 15px 210px 10px 0;
@@ -300,29 +300,31 @@ footer{
         padding-right: 60px;
     }
 }
+@media screen and (max-width: 521px){
+    .foto{
+        max-width: 400px;
+    }
+}
 @media screen and (max-width: 426px){
     .phone{
-        padding: 15px 95px 10px 0;
-    }
-    .column{
-        margin: 15px 14px 0 141px;
+        padding: 15px 50px 10px 0;
     }
     .tel::before {
         top: 20px;
+    }
+    h1,
+    h2,
+    h3{
+        font-size: 20px;
+    }
+    .prod{
+        font-size: 18px;
     }
     .foto{
         max-width: 260px;
     }
 }
-@media screen and (max-width: 376px){
-    .column{
-        margin: 15px 14px 0 62px;
-    }
-}
 @media screen and (max-width: 321px){
-    .column{
-        margin: 15px 14px 0 10px;
-    }
     .stock{
         display: inline-block;
     }
