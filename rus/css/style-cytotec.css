@@ -198,6 +198,7 @@ hr{
 }
 .block{
     display: block;
+    margin: 15px 0;
 }
 .price{
     margin-top: 0;
@@ -329,6 +330,11 @@ footer{
     }
     .foto{
         max-width: 260px;
+    }
+}
+@media screen and (max-width: 341px){
+    .prod{
+        padding-left: 33px;
     }
 }
 @media screen and (max-width: 321px){

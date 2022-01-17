@@ -324,6 +324,11 @@ footer{
         max-width: 260px;
     }
 }
+@media screen and (max-width: 341px){
+    .prod{
+        padding-left: 33px;
+    }
+}
 @media screen and (max-width: 321px){
     .stock{
         display: inline-block;
