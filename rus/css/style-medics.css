@@ -198,7 +198,8 @@ hr{
 .ultraproct-sup,
 .ultraproct-ung,
 .daivonex-ung,
-.advantan-crema{
+.advantan-crema,
+.crestor{
     margin-bottom: 20px;
     padding-left: 15px;
     border: 2px solid #9999a6;
@@ -214,7 +215,8 @@ hr{
 .ultraproct-sup:hover,
 .ultraproct-ung:hover,
 .daivonex-ung:hover,
-.advantan-crema:hover{
+.advantan-crema:hover,
+.crestor:hover{
     filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.15));
     border: 2px solid #3e6aff;
 }
@@ -229,7 +231,8 @@ hr{
 .ultraproct-sup-info,
 .ultraproct-ung-info,
 .daivonex-ung-info,
-.advantan-crema-info{
+.advantan-crema-info,
+.crestor-info{
     max-width: 755px;
     display: inline-block;
     margin-right: 15px;
@@ -257,7 +260,9 @@ hr{
 .daivonex-ung-info,
 .daivonex-ung-price,
 .advantan-crema-info,
-.advantan-crema-price{
+.advantan-crema-price,
+.crestor-info,
+.crestor-price{
     color: black;
 }
 img{
@@ -274,7 +279,8 @@ img{
 .ultraproct-sup-info p,
 .ultraproct-ung-info p,
 .daivonex-ung-info p,
-.advantan-crema-info p{
+.advantan-crema-info p,
+.crestor-info p{
     margin-top: 0;
 }
 .zarontin-price,
@@ -288,7 +294,8 @@ img{
 .ultraproct-sup-price,
 .ultraproct-ung-price,
 .daivonex-ung-price,
-.advantan-crema-price{
+.advantan-crema-price,
+.crestor-price{
     max-width: 250px;
     display: inline-block;
 }
