@@ -138,7 +138,8 @@ hr{
     position: relative;
 }
 .url,
-.viber{
+.viber,
+.tg{
     text-decoration: none;
     color: #000;
 }
@@ -155,7 +156,8 @@ hr{
     content: url(../img/telefone.png);
 }
 .url:hover,
-.viber:hover{
+.viber:hover,
+.tg:hover{
     text-decoration: underline;
 }
 .url::before{
@@ -170,6 +172,13 @@ hr{
     left: -30px;
     top: 32px;
     content: url(../img/viber3.png);
+}
+.tg::before{
+    position: absolute;
+    size: 1px;
+    left: -30px;
+    top: 63px;
+    content: url(../img/telegram.png);
 }
 .foto-colchicine,
 .price-colchicine{
@@ -212,6 +221,11 @@ hr{
     font-size: 14px;
     color: #309508;
 }
+.stockNun{
+    display: inline;
+    font-size: 14px;
+    color: #c53e08;
+}
 .main-info p,
 .main-info ul{
     padding-left: 60px;
@@ -222,17 +236,25 @@ hr{
 .first{
     list-style: none;
 }
-.prod{
+.prod,
+.prod-pol{
     font-size: 20px;
     display: block;
     padding-left: 60px;
 }
-.prod b{
+.prod b,
+.prod-pol b{
     position: relative;
 }
 .prod b::before{
     position: absolute;
     content: url(../img/italy.png);
+    bottom: -7px;
+    right: -28px;
+}
+.prod-pol b::before{
+    position: absolute;
+    content: url(../img/poland.png);
     bottom: -7px;
     right: -28px;
 }
@@ -331,7 +353,8 @@ footer{
     }
 }
 @media screen and (max-width: 321px){
-    .stock{
+    .stock,
+    .stockNun{
         display: inline-block;
     }
 }

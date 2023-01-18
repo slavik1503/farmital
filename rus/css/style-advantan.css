@@ -212,6 +212,11 @@ hr{
     font-size: 14px;
     color: #309508;
 }
+.stockNun {
+    display: inline;
+    font-size: 14px;
+    color: #c53e08;
+}
 .main-info p,
 .main-info ul{
     padding-left: 60px;

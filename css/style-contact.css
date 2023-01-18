@@ -142,8 +142,11 @@ hr{
 }
 .url,
 .viber,
+.tg,
 .url-chat a,
-.viber-chat a{
+.viber-chat a,
+.tg-chat a,
+.wa-chat a{
     text-decoration: none;
     color: #000;
 }
@@ -163,8 +166,10 @@ hr{
 }
 .url:hover,
 .viber:hover,
+.tg:hover,
 .url-chat a:hover,
-.viber-chat a:hover{
+.viber-chat a:hover,
+.tg-chat a:hover{
     text-decoration: underline;
 }
 .url::before{
@@ -178,7 +183,7 @@ p.url-chat{
 }
 .url-chat a::before{
     position: absolute;
-    left: 265px;
+    left: 285px;
     top: -2px;
     content: url(../img/url.png);
 }
@@ -191,9 +196,16 @@ p.url-chat{
 }
 .viber-chat a::before{
     position: absolute;
-    left: 340px;
-    bottom: 40px;
+    left: 370px;
+    bottom: 110px;
     content: url(../img/viber3.png);
+}
+.tg::before{
+    position: absolute;
+    size: 1px;
+    left: -30px;
+    top: 63px;
+    content: url(../img/telegram.png);
 }
 footer{
     background-color: #ededf5;

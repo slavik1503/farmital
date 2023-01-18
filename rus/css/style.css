@@ -140,7 +140,8 @@ hr{
     position: relative;
 }
 .url,
-.viber{
+.viber,
+.tg{
     text-decoration: none;
     color: #000;
 }
@@ -157,7 +158,8 @@ hr{
     content: url(../img/telefone.png);
 }
 .url:hover,
-.viber:hover{
+.viber:hover,
+.tg{
     text-decoration: underline;
 }
 .url::before{
@@ -172,6 +174,13 @@ hr{
     left: -30px;
     top: 32px;
     content: url(../img/viber3.png);
+}
+.tg::before{
+    position: absolute;
+    size: 1px;
+    left: -30px;
+    top: 36px;
+    content: url(../img/telegram.png);
 }
 .main-center{
     display: flex;
@@ -270,7 +279,11 @@ hr{
     font-size: 14px;
     color: #309508;
 }
-
+.stockNun {
+    display: inline;
+    font-size: 14px;
+    color: #c53e08;
+}
 footer{
     background-color: #ededf5;
 }

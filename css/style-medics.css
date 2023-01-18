@@ -138,7 +138,8 @@ hr{
     position: relative;
 }
 .url,
-.viber{
+.viber,
+.tg{
     text-decoration: none;
     color: #000;
 }
@@ -155,7 +156,8 @@ hr{
     content: url(../img/telefone.png);
 }
 .url:hover,
-.viber:hover{
+.viber:hover,
+.tg:hover{
     text-decoration: underline;
 }
 .url::before{
@@ -170,6 +172,13 @@ hr{
     left: -30px;
     top: 32px;
     content: url(../img/viber3.png);
+}
+.tg::before{
+    position: absolute;
+    size: 1px;
+    left: -30px;
+    top: 63px;
+    content: url(../img/telegram.png);
 }
 .main-top h2{
     padding-top: 20px;
@@ -199,7 +208,33 @@ hr{
 .ultraproct-ung,
 .daivonex-ung,
 .advantan-crema,
-.crestor{
+.crestor,
+.vessel,
+.neuraben,
+.zarontin-capsule,
+.frisium,
+.depakine-chrono,
+.lozid,
+.nucleodol,
+.liposom-forte,
+.tricortin,
+.spirali-nova,
+.rivotril,
+.rivotril-crapli,
+.sabril-sashe,
+.miotens,
+.neurax-biotic,
+.adenuric,
+.delecit,
+.cogiton,
+.gonasi,
+.xanax,
+.gliatilin,
+.mogadon,
+.lorazepam,
+.valium-crapli,
+.ozodrop,
+.trittico{
     margin-bottom: 20px;
     padding-left: 15px;
     border: 2px solid #9999a6;
@@ -216,7 +251,33 @@ hr{
 .ultraproct-ung:hover,
 .daivonex-ung:hover,
 .advantan-crema:hover,
-.crestor:hover{
+.crestor:hover,
+.vessel:hover,
+.neuraben:hover,
+.zarontin-capsule:hover,
+.frisium:hover,
+.depakine-chrono:hover,
+.lozid:hover,
+.nucleodol:hover,
+.liposom-forte:hover,
+.tricortin:hover,
+.spirali-nova:hover,
+.rivotril:hover,
+.rivotril-crapli:hover,
+.sabril-sashe:hover,
+.miotens:hover,
+.neurax-biotic:hover,
+.adenuric:hover,
+.delecit:hover,
+.cogiton:hover,
+.gonasi:hover,
+.xanax:hover,
+.gliatilin:hover,
+.mogadon:hover,
+.lorazepam:hover,
+.valium-crapli:hover,
+.ozodrop:hover,
+.trittico:hover{
     filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.15));
     border: 2px solid #3e6aff;
 }
@@ -232,7 +293,33 @@ hr{
 .ultraproct-ung-info,
 .daivonex-ung-info,
 .advantan-crema-info,
-.crestor-info{
+.crestor-info,
+.vessel-info,
+.neuraben-info,
+.zarontin-capsule-info,
+.frisium-info,
+.depakine-chrono-info,
+.lozid-info,
+.nucleodol-info,
+.liposom-forte-info,
+.tricortin-info,
+.spirali-nova-info,
+.rivotril-info,
+.rivotril-crapli-info,
+.sabril-sashe-info,
+.miotens-info,
+.neurax-biotic-info,
+.adenuric-info,
+.delecit-info,
+.cogiton-info,
+.gonasi-info,
+.xanax-info,
+.gliatilin-info,
+.mogadon-info,
+.lorazepam-info,
+.valium-crapli-info,
+.ozodrop-info,
+.trittico-info{
     max-width: 755px;
     display: inline-block;
     margin-right: 15px;
@@ -262,7 +349,59 @@ hr{
 .advantan-crema-info,
 .advantan-crema-price,
 .crestor-info,
-.crestor-price{
+.crestor-price,
+.vessel-info,
+.vessel-price,
+.neuraben-info,
+.neuraben-price,
+.zarontin-capsule-info,
+.zarontin-capsule-price,
+.frisium-info,
+.frisium-price,
+.depakine-chrono-info,
+.depakine-chrono-price,
+.lozid-info,
+.lozid-price,
+.nucleodol-info,
+.nucleodol-price,
+.liposom-forte-info,
+.liposom-forte-price,
+.tricortin-info,
+.tricortin-price,
+.spirali-nova-info,
+.spirali-nova-price,
+.rivotril-info,
+.rivotril-price,
+.rivotril-crapli-info,
+.rivotril-crapli-price,
+.sabril-sashe-info,
+.sabril-sashe-price,
+.miotens-info,
+.miotens-price,
+.neurax-biotic-info,
+.neurax-biotic-price,
+.adenuric-info,
+.adenuric-price,
+.delecit-info,
+.delecit-price,
+.cogiton-info
+.cogiton-price,
+.gonasi-info,
+.gonasi-price,
+.xanax-info,
+.xanax-price,
+.gliatilin-info,
+.gliatilin-price,
+.mogadon-info,
+.mogadon-price,
+.lorazepam-info,
+.lorazepam-price,
+.valium-crapli-info,
+.valium-crapli-price,
+.ozodrop-info,
+.ozodrop-price,
+.trittico-info,
+.trittico-price{
     color: black;
 }
 img{
@@ -280,7 +419,33 @@ img{
 .ultraproct-ung-info p,
 .daivonex-ung-info p,
 .advantan-crema-info p,
-.crestor-info p{
+.crestor-info p,
+.vessel-info p,
+.neuraben-info p,
+.zarontin-capsule-info p,
+.frisium-info p,
+.depakine-chrono-info p,
+.lozid-info p,
+.nucleodol-info p,
+.liposom-forte-info p,
+.tricortin-info p,
+.advantan-crema-info p,
+.rivotril-info p,
+.rivotril-crapli-info p,
+.sabril-sashe-info p,
+.miotens-info p,
+.neurax-biotic-info p,
+.adenuric-info p,
+.delecit-info p,
+.cogiton-info p,
+.gonasi-info p,
+.xanax-info p,
+.gliatilin-info p,
+.mogadon-info p,
+.lorazepam-info p,
+.valium-crapli-info p,
+.adenuric-info p,
+.trittico-info p{
     margin-top: 0;
 }
 .zarontin-price,
@@ -295,7 +460,33 @@ img{
 .ultraproct-ung-price,
 .daivonex-ung-price,
 .advantan-crema-price,
-.crestor-price{
+.crestor-price,
+.vessel-price,
+.neuraben-price,
+.zarontin-capsule-price,
+.frisium-price,
+.depakine-chrono-price,
+.lozid-price,
+.nucleodol-price,
+.liposom-forte-price,
+.tricortin-price,
+.spirali-nova-price,
+.rivotril-price,
+.rivotril-crapli-price,
+.sabril-sashe-price,
+.miotens-price,
+.neurax-biotic-price,
+.adenuric-price,
+.delecit-price,
+.cogiton-price,
+.gonasi-price,
+.xanax-price,
+.gliatilin-price,
+.mogadon-price,
+.lorazepam-price,
+.valium-crapli-price,
+.ozodrop-price,
+.trittico-price{
     max-width: 250px;
     display: inline-block;
 }
