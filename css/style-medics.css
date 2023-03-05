@@ -234,7 +234,9 @@ hr{
 .lorazepam,
 .valium-crapli,
 .ozodrop,
-.trittico{
+.trittico,
+.bromazepam,
+.oki{
     margin-bottom: 20px;
     padding-left: 15px;
     border: 2px solid #9999a6;
@@ -277,7 +279,9 @@ hr{
 .lorazepam:hover,
 .valium-crapli:hover,
 .ozodrop:hover,
-.trittico:hover{
+.trittico:hover,
+.bromazepam:hover,
+.oki:hover{
     filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.15));
     border: 2px solid #3e6aff;
 }
@@ -319,7 +323,9 @@ hr{
 .lorazepam-info,
 .valium-crapli-info,
 .ozodrop-info,
-.trittico-info{
+.trittico-info,
+.bromazepam-info,
+.oki-info{
     max-width: 755px;
     display: inline-block;
     margin-right: 15px;
@@ -401,7 +407,11 @@ hr{
 .ozodrop-info,
 .ozodrop-price,
 .trittico-info,
-.trittico-price{
+.trittico-price,
+.bromazepam-info,
+.bromazepam-price,
+.oki-info,
+.oki-price{
     color: black;
 }
 img{
@@ -445,7 +455,9 @@ img{
 .lorazepam-info p,
 .valium-crapli-info p,
 .adenuric-info p,
-.trittico-info p{
+.trittico-info p,
+.bromazepam-info p,
+.oki-info p{
     margin-top: 0;
 }
 .zarontin-price,
@@ -486,7 +498,9 @@ img{
 .lorazepam-price,
 .valium-crapli-price,
 .ozodrop-price,
-.trittico-price{
+.trittico-price,
+.bromazepam-price,
+.oki-price{
     max-width: 250px;
     display: inline-block;
 }
